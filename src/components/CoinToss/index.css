@@ -1,0 +1,58 @@
+/* Write your CSS here */
+.coinToss-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-card {
+  background-color: #ffffff;
+  border-radius: 20px;
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  padding: 0;
+  margin-top: 30px;
+}
+
+.choice {
+  color: #334155;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  border-width: 0;
+  border-radius: 5px;
+  width: 100px;
+  padding: 2px;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.result {
+  padding-left: 50px;
+  color: #334155;
+  font-weight: 400;
+}
+
+.toss-result-img {
+  width: 200px;
+  height: 200px;
+}
